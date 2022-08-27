@@ -7,11 +7,16 @@ public class Exerc09 {
 //		verdadeiro, imprima: "A + B == 20''. Caso as afirmações não forem
 //		verdadeiras imprima: "número não válido".
 		
-		int A=10, B=10;
-		if(A>10 && A+B==20) {
-			System.out.println("A+B == 20");
+		int A=11, B=10;
+		boolean teste=false;
+		if(A>10) {
+			teste=true;
 		}
-		else
+		if(A+B==20) {
+			teste=true;
+			System.out.println("A+B==20");		
+		}
+		if(!teste)
 			System.out.println("numero nao valido");
 	}
 }

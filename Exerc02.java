@@ -9,15 +9,15 @@ public class Exerc02 {
 		//nenhumas das afirmação não seja verdadeira, imprima: "número não
 		//válido", (obs: apenas uma impressão é permitida na saída do programa).
 		
-		int A=5, B=15;
-		if(A<10){
-			System.out.println("A < 10");
-		}	
-		else if(A+B==20){
-			System.out.println("A+B==20");
-		}	
-		else {
-			System.out.println("Numero nao valido");
+		int A=9, B=11;
+		if(A<10 || A+B==20) {
+			if(A<10)
+				System.out.println("A<10");
+			if(A+B==20)
+				System.out.println("A+B==20");
 		}
+		else
+			System.out.println("numero nao valido");
+
 	}
 }

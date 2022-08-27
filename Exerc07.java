@@ -7,10 +7,11 @@ public class Exerc07 {
 //		verdadeiras as afirmações imprima: "números válidos”. Caso a primeira
 //		afirmação não seja verdadeira, imprima: "número não válido".
 		
-		int A=9, B=10;
-		if(A>10 || A+B==20) {
-			if(!(A>10))
+		int A=9, B=11;
+		if(A>10 || A+B==20){
+			if(!(A>10)) {
 				System.out.println("numero nao valido");
+			}
 			else
 				System.out.println("numeros validos");
 		}
